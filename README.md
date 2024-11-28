@@ -1,7 +1,7 @@
 # Fila de Banco
 Nome: Nícolas Kalebe
 
-Nome: Vitor Alexandre
+Nome: Vitor Alexandre - 202302592
 ## **Seção I. Introdução**
 
 ### Problema
@@ -25,6 +25,12 @@ Os clientes serão cadastrados informando seus dados um de cada vez, onde uma es
 ### Avaliação
 
 Verificaremos se a ordem da fila está sendo respeitada e todas as funções estão funcionando de maneira correta e da melhor forma. 
+
+## **Seção II. Fundamentos Teóricos**
+
+Os fundamentos teóricos servem para descrevermos as etápas do projeto através das ferramentas e métodos que utlizamos para o desenvolvimento do código, chegando a uma conclusão do problema proposto de melhorar e agilizar o sistema de atendimento nas filas de bancos ao redor do mundo.
+
+### Algoritmos
 
 ## **Seção III. Metodologia**
 
