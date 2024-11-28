@@ -50,7 +50,7 @@ Nesse tipo de fila apresentado em sala de aula, o primeiro elemento a ser inseri
 
 No código foram utilizadas as seguintes funções:
 
-- 'iniciarFila': utilizado para iniciar uma fila vazia (sem clientes);
+- 'iniciarFila:' utilizado para iniciar uma fila vazia (sem clientes);
 - 'adicionarCliente': adiciona clientes na fila com base nos dados (idade e preferência);
 - 'atenderProximo': remove o cliente mais antigo e atende o próximo cliente na fila;
 - 'exibirFila': mostra os clientes que estão presentes na fila.
