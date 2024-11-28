@@ -16,7 +16,7 @@ O problema escolhido pelo nosso grupo foi desenvolver um programa em C para orga
 
 ### Dataset
 
-Os dados que usaremos no programa serão: nome do cliente, CPF, motivo e tentaremos aplicar também a opção de fila prioritária para idosos por exemplo.
+Os dados que usaremos no programa serão: nome do cliente, idade (se é igual ou superior a 60 anos, se adequando para ter preferência) e a possível necessidade de preferência (pessoas com deficiências, gestantes, idosos, etc). A partir desses dados será possível definir o cliente para a fila correta.
 
 ### Métodos
 
@@ -46,7 +46,7 @@ Nesse tipo de fila apresentado em sala de aula, o primeiro elemento a ser inseri
   Essa estrutura é de fácil implementação e entendimento
   Porém, há limitações no acesso aos elementos, sendo possível apenas aos extremos (início e fim).
 
-## Funções Utilizadas
+### Funções Utilizadas
 
 No código foram utilizadas as seguintes funções:
 
@@ -63,8 +63,6 @@ A metodologia consiste em uma tela inicial que terá algumas opções enumeradas
 
 ## **Seção IV. Resultados e Conclusões**
 
-Com a conclusão do projeto, é possível afirmar que aprendemos bastante sobre o desenvolvimento de um programa em C, com a utilização de novas funções e algoritmos que nos ajudaram a concluir o problema proposto, mas também sobre a estrutura de dados e como manipulá-los dentro de um programa. No nosso projeto, criamos um programa que facilita a utilização de um sistema de filas para um banco, agilizando o processo e fazendo com que o diário e cansativo processo por esperar em filas aconteça de modo mais dinâmico.
-
 ### Resultados 
 
 - Agrupamento dos clientes do banco em duas filas diferentes, um fila normal e outra peferencial.
@@ -72,3 +70,7 @@ Com a conclusão do projeto, é possível afirmar que aprendemos bastante sobre 
 - Fácil leitura e entendimento das funções do código.
 - Simplicidade que gera agilidade com o passar dos clientes pelas filas.
 - Prioridade de atentimento a aqueles clientes que possuem preferência ou possuem idade mais elevada.
+
+### Conclusão
+
+Com a conclusão do projeto, é possível afirmar que aprendemos bastante sobre o desenvolvimento de um programa em C, com a utilização de novas funções e algoritmos que nos ajudaram a concluir o problema proposto, mas também sobre a estrutura de dados e como manipulá-los dentro de um programa. No nosso projeto, criamos um programa que facilita a utilização de um sistema de filas para um banco, agilizando o processo e fazendo com que o diário e cansativo processo por esperar em filas aconteça de modo mais dinâmico.
