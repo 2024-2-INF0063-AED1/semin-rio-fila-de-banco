@@ -38,8 +38,8 @@ Dentro do nosso programa utilizamos o sistema de:
 
 Nesse tipo de fila apresentado em sala de aula, o primeiro elemento a ser inserido é o primeiro a ser removido, seguindo uma ordem dinâmica removendo o elemento mais antigo. As operações acontecem nas extremidades da fila. No código, foram criados dois tipos de fila:
 
-- Fila normal (para clientes sem preferência ou com menos de 60 anos de idade)
-- Fila prioritária (para clientes com preferência ou com idade igual ou superior a 60 anos)
+ Fila normal (para clientes sem preferência ou com menos de 60 anos de idade)
+ Fila prioritária (para clientes com preferência ou com idade igual ou superior a 60 anos)
 
 - **Vantagens e Limitações:**
   Uma das vantagens no uso das filas está no processamento sequencial, uma vez que há garantia de ordem FIFO (First In, First Out).
@@ -50,10 +50,10 @@ Nesse tipo de fila apresentado em sala de aula, o primeiro elemento a ser inseri
 
 No código foram utilizadas as seguintes funções:
 
-- iniciarFila: utilizado para iniciar uma fila vazia (sem clientes);
-- adicionarCliente: adiciona clientes na fila com base nos dados (idade e preferência);
-- atenderProximo: remove o cliente mais antigo e atende o próximo cliente na fila;
-- exibirFila: mostra os clientes que estão presentes na fila.
+- 'iniciarFila': utilizado para iniciar uma fila vazia (sem clientes);
+- 'adicionarCliente': adiciona clientes na fila com base nos dados (idade e preferência);
+- 'atenderProximo': remove o cliente mais antigo e atende o próximo cliente na fila;
+- 'exibirFila': mostra os clientes que estão presentes na fila.
 
 
 
