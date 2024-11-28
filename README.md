@@ -30,7 +30,32 @@ Verificaremos se a ordem da fila está sendo respeitada e todas as funções est
 
 Os fundamentos teóricos servem para descrevermos as etápas do projeto através das ferramentas e métodos que utlizamos para o desenvolvimento do código, chegando a uma conclusão do problema proposto de melhorar e agilizar o sistema de atendimento nas filas de bancos ao redor do mundo.
 
-### Algoritmos
+Dentro do nosso programa utilizamos o sistema de:
+
+### Estrutura de Dados
+
+- **Fila do tipo FIFO (First In, First Out)**
+
+Nesse tipo de fila apresentado em sala de aula, o primeiro elemento a ser inserido é o primeiro a ser removido, seguindo uma ordem dinâmica removendo o elemento mais antigo. As operações acontecem nas extremidades da fila. No código, foram criados dois tipos de fila:
+
+- Fila normal (para clientes sem preferência ou com menos de 60 anos de idade)
+- Fila prioritária (para clientes com preferência ou com idade igual ou superior a 60 anos)
+
+- **Vantagens e Limitações:**
+  Uma das vantagens no uso das filas está no processamento sequencial, uma vez que há garantia de ordem FIFO (First In, First Out).
+  Essa estrutura é de fácil implementação e entendimento
+  Porém, há limitações no acesso aos elementos, sendo possível apenas aos extremos (início e fim).
+
+## Funções Utilizadas
+
+No código foram utilizadas as seguintes funções:
+
+- iniciarFila: utilizado para iniciar uma fila vazia (sem clientes);
+- adicionarCliente: adiciona clientes na fila com base nos dados (idade e preferência);
+- atenderProximo: remove o cliente mais antigo e atende o próximo cliente na fila;
+- exibirFila: mostra os clientes que estão presentes na fila.
+
+
 
 ## **Seção III. Metodologia**
 
