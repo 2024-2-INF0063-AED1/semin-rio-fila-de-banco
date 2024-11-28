@@ -39,7 +39,7 @@ Dentro do nosso programa utilizamos o sistema de:
 Nesse tipo de fila apresentado em sala de aula, o primeiro elemento a ser inserido é o primeiro a ser removido, seguindo uma ordem dinâmica removendo o elemento mais antigo. As operações acontecem nas extremidades da fila. No código, foram criados dois tipos de fila:
 
  Fila normal (para clientes sem preferência ou com menos de 60 anos de idade)
- Fila prioritária (para clientes com preferência ou com idade igual ou superior a 60 anos)
+ Fila preferencial (para clientes com preferência ou com idade igual ou superior a 60 anos)
 
 - **Vantagens e Limitações:**
   Uma das vantagens no uso das filas está no processamento sequencial, uma vez que há garantia de ordem FIFO (First In, First Out).
@@ -55,10 +55,20 @@ No código foram utilizadas as seguintes funções:
 - `atenderProximo`: remove o cliente mais antigo e atende o próximo cliente na fila;
 - `exibirFila`: mostra os clientes que estão presentes na fila.
 
-
-
 ## **Seção III. Metodologia**
 
 A metodologia consiste em uma tela inicial que terá algumas opções enumeradas que poderão ser escolhidas pelo usuário. Sendo elas: Cadastrar um novo cliente, remover um cliente da fila, ou verificar a fila. Cada uma com uma função diferente e sendo sempre possível voltar para a tela inicial no final da função. Na opção de verificar a fila terá a opção de “próximo na fila” que apagará o cliente da primeira posição e dará continuação à fila.
 
 ![diagrama](https://github.com/user-attachments/assets/9459645c-9e8b-4368-9f83-12daf09a9b9e)
+
+## **Seção IV. Resultados e Conclusões**
+
+Com a conclusão do projeto, é possível afirmar que aprendemos bastante sobre o desenvolvimento de um programa em C, com a utilização de novas funções e algoritmos que nos ajudaram a concluir o problema proposto, mas também sobre a estrutura de dados e como manipulá-los dentro de um programa. No nosso projeto, criamos um programa que facilita a utilização de um sistema de filas para um banco, agilizando o processo e fazendo com que o diário e cansativo processo por esperar em filas aconteça de modo mais dinâmico.
+
+### Resultados 
+
+- Agrupamento dos clientes do banco em duas filas diferentes, um fila normal e outra peferencial.
+- Rapidez e facilidade de navegação pelo programa.
+- Fácil leitura e entendimento das funções do código.
+- Simplicidade que gera agilidade com o passar dos clientes pelas filas.
+- Prioridade de atentimento a aqueles clientes que possuem preferência ou possuem idade mais elevada.
