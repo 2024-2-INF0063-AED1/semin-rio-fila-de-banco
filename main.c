@@ -16,7 +16,7 @@ typedef struct Fila {
 void iniciaFila(Fila *fila) {
     fila->frente = fila->tras = NULL;
 }
-
+// função que add um cliente
 void adicionaCliente(Fila *fila) {
     char nome[50];
     int idade;
@@ -44,7 +44,7 @@ void adicionaCliente(Fila *fila) {
 
     printf("\nCliente %s cadastrado com sucesso!\n", nome);
 }
-
+// função que exibe a fila
 void exibirFila(Fila *fila, const char *descricao) {
     printf("\nFila %s:\n", descricao);
     if (fila->frente == NULL) {
