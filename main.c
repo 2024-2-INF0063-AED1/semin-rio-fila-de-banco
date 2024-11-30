@@ -19,7 +19,11 @@ void iniciaFila(Fila *fila) {
     fila->frente = fila->tras = NULL;
 }
 // função que add um cliente
+<<<<<<< HEAD
 void adicionaCliente(Fila *filaPreferencial, Fila *filaNormal) {
+=======
+void adicionaCliente(Fila *fila) {
+>>>>>>> 157dba2706c41fb85e895ff64b297f3e6f91b1a2
     char nome[50];
     int idade;
 
