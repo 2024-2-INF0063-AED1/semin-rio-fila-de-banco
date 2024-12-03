@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-// Estrutura do cliente
+// Estrutura do cliente (id, nome, idade e se possui preferencia ou nao)
 typedef struct Cliente {
     int id;
     char nome[50];
@@ -12,7 +12,7 @@ typedef struct Cliente {
     struct Cliente *proximo;
 } Cliente;
 
-// Estrutura da fila
+// Estrutura da fila (First In, First Out)
 typedef struct Fila {
     Cliente *frente;
     Cliente *tras;
@@ -37,7 +37,7 @@ void liberaFila(Fila *fila) {
     printf("Fila liberada com sucesso.\n");
 }
 
-// Função para remover cliente pelo ID
+// função para remover cliente pelo ID
 void removerClientePorID(Fila *fila, int id) {
     if (fila->frente == NULL) {
         printf("\nA fila está vazia.\n");
@@ -80,7 +80,7 @@ void removerPorID(Fila *filaPreferencial, Fila *filaNormal, int id) {
     removerClientePorID(filaNormal, id);
 }
 
-// Função para adicionar cliente à fila
+// Função para adicionar cliente à fila 
 void adicionaCliente(Fila *filaPreferencial, Fila *filaNormal) {
     char nome[50];
     int idade;
@@ -113,7 +113,7 @@ void adicionaCliente(Fila *filaPreferencial, Fila *filaNormal) {
     printf("\nCliente %s cadastrado com sucesso! ID: %d\n", nome, novo->id);
 }
 
-// Função para exibir a fila
+// Função para exibir a fila 
 void exibirFila(Fila *fila, const char *descricao) {
     printf("\nFila %s:\n", descricao);
     if (fila->frente == NULL) {
@@ -129,7 +129,7 @@ void exibirFila(Fila *fila, const char *descricao) {
     }
 }
 
-// Função do menu principal
+// Função do menu principal do Banco da UFG 
 void menu(Fila *filaPreferencial, Fila *filaNormal) {
     int opcao;
     do {
@@ -187,6 +187,6 @@ int main() {
     liberaFila(&filaPreferencial);
     liberaFila(&filaNormal);
 
-    printf("\nMemória liberada. Encerrando o programa.\n");
+    printf("\nMemória liberada. Encerrando o programa.");
     return 0;
 }
