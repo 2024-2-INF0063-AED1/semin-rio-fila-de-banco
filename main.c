@@ -37,7 +37,7 @@ void liberaFila(Fila *fila) {
     printf("Fila liberada com sucesso.\n");
 }
 
-// função para remover cliente pelo ID
+// função para atender o próximo cliente
 void removerClientePorID(Fila *fila, int id) {
     if (fila->frente == NULL) {
         printf("\nA fila está vazia.\n");
