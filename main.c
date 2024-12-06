@@ -84,6 +84,7 @@ void removerPorID(Fila *filaPreferencial, Fila *filaNormal, int id) {
 void adicionaCliente(Fila *filaPreferencial, Fila *filaNormal) {
     char nome[50];
     int idade;
+    char escolha;
 
     printf("\nDigite o nome do cliente: ");
     scanf(" %[^\n]", nome);
@@ -98,7 +99,18 @@ void adicionaCliente(Fila *filaPreferencial, Fila *filaNormal) {
     novo->id = ++contadorID;
     strcpy(novo->nome, nome);
     novo->idade = idade;
-    novo->preferencia = (idade >= 60);
+
+    // Determinar preferência com base na idade e na escolha do usuário
+    if (idade >= 60) {
+        printf("Cliente tem direito à fila preferencial por idade. Deseja adicionar à fila preferencial? (s/n): ");
+        scanf(" %c", &escolha);
+        novo->preferencia = (escolha == 's' || escolha == 'S');
+    } else {
+        printf("Esse cliente tem direito a fila preferencial? (s/n): ");
+        scanf(" %c", &escolha);
+        novo->preferencia = (escolha == 's' || escolha == 'S');
+    }
+    
     novo->proximo = NULL;
 
     Fila *fila = (novo->preferencia) ? filaPreferencial : filaNormal;
