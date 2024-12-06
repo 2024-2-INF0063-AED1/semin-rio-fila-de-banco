@@ -1,0 +1,3 @@
+C:/Users/cur1ousfox/Documents/repositorios/semin-rio-fila-de-banco/cmake-build-debug/CMakeFiles/semin_rio_fila_de_banco.dir
+C:/Users/cur1ousfox/Documents/repositorios/semin-rio-fila-de-banco/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cur1ousfox/Documents/repositorios/semin-rio-fila-de-banco/cmake-build-debug/CMakeFiles/rebuild_cache.dir
